@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 gem "rspec"
-gem "sinatra, 1.4.4"
+gem "sinatra, '1.4.4'"
 gem "hashie"
-gem "octokit"
-gem "pry"
+gem "octokit, '~> 2.0'"
 gem "awesomeprint"
 
 group :development do
